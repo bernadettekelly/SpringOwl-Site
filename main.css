@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Lato|Muli');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%
+}
+
+body {
+	background-image: url"Background.jpg";
+}
+
+p {
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 50%;
+	font-family: 'Lato', sans-serif;
+	color: #000066;
+	font-size: 20px;
+}
+
+ul {
+	margin-left: 10%;
+	list-style: none;
+	margin-top: 50px;
+	font-family: 'Lato', sans-serif;
+	color: color: #000066;
+}
+
+li {
+	color: #000066;
+}
+
+a:link {
+	color: #000066;
+	text-decoration: none;
+}
+
+.email:hover {
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+	color: #0000ff;
+}
+
+body {
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55%;
+}
+
+.logo {
+	width: 20%;
+	margin-top: 30%;
+	margin-left: 5%;
+}
+
+img {
+	width: 125%;
+}
+
+footer {
+	font-family: 'Lato', sans-serif;
+	color: #000066;
+	margin-left: 10%;
+	margin-top: 5%;
+
+}
+
+
+
+@media only screen and (min-width: 320px) {
+	p {
+		width: 70%;
+		font-size: 35px;
+		margin-top: 10%
+	}
+
+	.logo {
+		width: 40%;
+	}
+
+	ul {
+		margin-top: 100px;
+		font-size: smaller;
+	}
+
+	footer {
+		font-size: smaller;
+		margin-left: 5%;
+		font-size: x-small;
+		margin-top: 25%;
+	}
+}
+
+@media only screen and (min-width: 375px) {
+	footer {
+		font-size: smaller;
+		margin-left: 5%
+		font-size: x-small;
+		margin-top: 32%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	footer {
+	font-family: 'Lato', sans-serif;
+	color: #000066;
+	margin-left: 10%;
+	margin-top: 30%;
+	font-size: smaller;
+	}
+
+	ul {
+		font-size: medium;
+	}
+
+	p {
+		font-size: 20px;
+	}
+}
+
+
+@media only screen and (min-width: 1024px) {
+	.logo {
+	width: 20%;
+	margin-top: 30%;
+	margin-left: 5%;
+	}
+	p {
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 50%;
+	font-family: 'Lato', sans-serif;
+	color: #000066;
+	font-size: 20px;
+	}
+
+ul {
+	margin-left: 10%;
+	list-style: none;
+	margin-top: 50px;
+	font-family: 'Lato', sans-serif;
+	color: color: #000066;
+	}
+
+footer {
+	font-family: 'Lato', sans-serif;
+	color: #000066;
+	margin-left: 10%;
+	margin-top: 50%;
+	font-size: medium;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	.logo {
+	width: 20%;
+	margin-top: 30%;
+	margin-left: 5%;
+	}
+	p {
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 50%;
+	font-family: 'Lato', sans-serif;
+	color: #000066;
+	font-size: 20px;
+	}
+
+ul {
+	margin-left: 10%;
+	list-style: none;
+	margin-top: 50px;
+	font-family: 'Lato', sans-serif;
+	color: color: #000066;
+	}
+
+footer {
+	font-family: 'Lato', sans-serif;
+	color: #000066;
+	margin-left: 10%;
+	margin-top: 5%;
+	font-size: medium;
+	}
+}
